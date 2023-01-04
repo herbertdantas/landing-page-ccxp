@@ -113,4 +113,8 @@ section{
 
 }
 
+.botao button:hover{
+    background-color: #FFD900;
+}
+
 
