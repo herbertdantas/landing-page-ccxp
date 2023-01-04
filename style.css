@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+header{
+    background-color: #FFD900;
+    height: 120px;
+    
+}
+
+header img{
+    margin-top: 28px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.reviva{
+    
+    text-align: center;
+    
+    width: 45%;
+    height: 510px;
+    background-color: #514988;
+    
+
+}
+
+.reviva h1{
+    font-size: 30pt;
+    color: #F3C61F;
+}
+
+.reviva h3 {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.reviva p{
+    font-size: 22px;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.total{
+    display: flex;
+}
+
+.timer{
+    height: 60px;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+           
+    
+}
+
+.timer div{
+    
+    color: #514988;
+    font-size: 25px;
+}
+
+#maior{
+    text-align: center;
+    color: #E33881;
+    
+}
+
+.arlequina video{
+    display: block;
+    margin-left: 15px;
+    margin-top: -20px;
+    
+}
+
+
+#ainda h3{
+    margin-left: 100px;
+    color:#F3C61F;
+
+}
+
+.final{
+    
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.cards{
+    cursor: pointer;
+}
+
+.botao button {
+    margin-left: 20px;
+    width: 370px;
+    height: 100px;
+    background-color:#514988;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+
