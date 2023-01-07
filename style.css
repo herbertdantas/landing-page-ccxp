@@ -23,7 +23,6 @@ header img{
     text-align: center;
     
     width: 45%;
-    height: 510px;
     background-color: #514988;
     
 
@@ -35,18 +34,20 @@ header img{
 }
 
 .reviva h3 {
+    font-size: 22pt;
     padding-bottom: 15px;
     color: white;
 }
 
 .reviva p{
-    font-size: 22px;
+    font-size: 20pt;
     color: white;
 }
 
 section{
     display: flex;
     flex-direction: column;
+    width: 55%;
 }
 
 .total{
@@ -56,7 +57,7 @@ section{
 .timer{
     height: 60px;
     display: flex;
-    width: 700px;
+    
     justify-content: space-around;
            
     
@@ -65,21 +66,32 @@ section{
 .timer div{
     
     color: #514988;
-    font-size: 25px;
+    font-size: 25pt;
+    
 }
 
 #maior{
+    margin-top: 60px;
     text-align: center;
     color: #E33881;
     
 }
 
-.arlequina video{
-    display: block;
-    margin-left: 15px;
-    margin-top: -20px;
+
+
+figure { 
     
+    width: 98%; 
+    min-width: 320px; 
+    margin:0 auto;
 }
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 #ainda h3{
@@ -89,19 +101,24 @@ section{
 }
 
 .final{
-    
+    width: 80%;
+    justify-content:space-around;
     display: flex;
     align-items: center;
-    height: 250px;
+    
+    
 }
 
 .cards{
+    
     cursor: pointer;
+    
 }
 
-.botao button {
-    margin-left: 20px;
-    width: 370px;
+
+button {
+    margin-right: -200px;
+    width: 500px;
     height: 100px;
     background-color:#514988;
     color: white;
@@ -113,7 +130,7 @@ section{
 
 }
 
-.botao button:hover{
+button:hover{
     background-color: #FFD900;
 }
 
